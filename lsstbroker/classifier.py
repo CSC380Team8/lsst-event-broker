@@ -9,8 +9,7 @@ class Classifier():
 
     def setDeterminingClassifier(binary_classifier):
         """
-
-
+        This method determines the classifier 
         """
 
     def addBinaryClassifier(binary_classifier):
@@ -21,7 +20,7 @@ class Classifier():
 
     def run(observations):
         """
-        Method to be called to run the observations data that was 
+        Method to be called to run the observations data that was
         aquired from the transient observation class
 
         """
