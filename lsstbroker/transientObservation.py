@@ -5,7 +5,9 @@ and store that data into each specific transient. Afterwards this data can be us
 to classify the data based on this information.
 
 """
+from collections import namedtuple
 
+import random
 
 class transientOberservation(object):
 
@@ -14,6 +16,6 @@ class transientOberservation(object):
     """
 
     this method is to be called on by the event broker when it wants
-    a transients time, light-value and color, it will return a tuple. 
+    a transients time, light-value and color, it will return a tuple.
 
     """
