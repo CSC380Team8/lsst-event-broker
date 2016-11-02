@@ -9,8 +9,7 @@ class BinaryClassifer():
 
     def __init__(classifying_function):
         """
-        
-
+        Constructor for the classification 
         """
 
     def run(observations):
