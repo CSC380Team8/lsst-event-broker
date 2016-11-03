@@ -1,12 +1,6 @@
-"""
-
-
-
-"""
-
-
-
 class ClassifierBox():
+
+    classifiers = []
 
     def addclassifier(classifier):
         """
@@ -15,10 +9,6 @@ class ClassifierBox():
 
     def run(observations):
         """
-        Method to be called to run the observations data that was 
+        Method to be called to run the observations data that was
         aquired from the transient observation class
-
         """
-
-
-# Classifiers
