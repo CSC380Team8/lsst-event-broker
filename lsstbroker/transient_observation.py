@@ -5,7 +5,7 @@ and store that data into each specific transient. Afterwards this data can be us
 to classify the data based on this information.
 """
 
-class transientOberservation(object):
+class TransientOberservation(object):
 
     time = None
     light = None

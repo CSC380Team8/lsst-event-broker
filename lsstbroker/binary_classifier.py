@@ -7,7 +7,7 @@ class BinaryClassifer(object):
         Constructor for the classification
         """
 
-    def run(observations):
+    def run(self, observations):
         """
         Method to be called to run the observations data that was
         aquired from the transient observation class
