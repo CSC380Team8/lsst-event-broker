@@ -1,8 +1,8 @@
-class BinaryClassifer():
+class BinaryClassifer(object):
 
     classifying_function = None
 
-    def __init__(classifying_function):
+    def __init__(self, classifying_function):
         """
         Constructor for the classification
         """

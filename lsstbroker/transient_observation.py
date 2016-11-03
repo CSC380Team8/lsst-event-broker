@@ -11,7 +11,7 @@ class transientOberservation(object):
     light = None
     color = None
 
-    def __init__(time, light_value, color) : # init the time light value and color
+    def __init__(self, time, light_value, color) : # init the time light value and color
     """
 
     this method is to be called on by the event broker when it wants
