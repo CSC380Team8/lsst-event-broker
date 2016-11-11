@@ -5,13 +5,15 @@ and store that data into each specific transient. Afterwards this data can be us
 to classify the data based on this information.
 """
 
-class TransientOberservation(object):
+class Oberservation(object):
 
-    time = None
-    light = None
-    color = None
 
     def __init__(self, time, light_value, color) : # init the time light value and color
+
+    self.time = None
+    self.light_value = None
+    self.color = None
+
     """
 
     this method is to be called on by the event broker when it wants
