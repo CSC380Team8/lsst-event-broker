@@ -18,5 +18,5 @@ class Oberservation(object):
         """
 
         self.time = time
-        self.light = light
+        self.light = light_value
         self.color = color
