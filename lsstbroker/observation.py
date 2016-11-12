@@ -6,17 +6,17 @@ to classify the data based on this information.
 
 class Oberservation(object):
 
+    time = None
+    light = None
+    color = None
+
     def __init__(self, time, light_value, color):
-
-        self.time = None
-        self.light = None
-        self.color = None
-
-
-
-
         """
         this method is to be called on by the event broker when it wants
         to geneerate a transients time, light-value and color, it will return
         a tuple.
         """
+
+        self.time = time
+        self.light = light
+        self.color = color
